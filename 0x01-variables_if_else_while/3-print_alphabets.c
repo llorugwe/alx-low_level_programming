@@ -7,22 +7,23 @@
  */
 int main(void)
 {
-	int i;
-	int j;
+	char letter;
 
-	i = 97;
-	while (i <= 122)
+
+	for (letter = 'a'; letter <= 'z' ; letter++)
 	{
-		putchar(i);
-		i++;
+		putchar(letter);
+
 	}
-	putchar(10);
-	j = 65;
-	while (j <= 90)
+
+	for (letter = 'A'; letter <= 'Z' ; letter++)
+
 	{
-		putchar(j);
-		j++;
+		putchar(letter);
+
 	}
-	putchar(10);
+
+	putchar('\n');
+
 	return (0);
 }
