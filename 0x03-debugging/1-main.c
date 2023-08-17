@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - will causes an infinite loop to occur
- * Return: returns 0 when successful
- */
+* main - will causes an infinite loop to occur
+* Return: returns 0 when successful
+*/
 
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 
 	i = 0;
 	/**
-	*while (i < 10) increment to i has been left out
+	*while (i < 10)
 	*{
 	*	putchar(i);
 	*}
